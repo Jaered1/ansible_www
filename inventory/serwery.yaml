@@ -4,7 +4,7 @@ all:
       children:
         serweryweb:
           hosts:
-            docker4.saiou.lan:
+            docker.saiou.lan:
               ansible_host: 10.0.2.8
               ansible_connection: ssh
               ansible_ssh_user: kursant
